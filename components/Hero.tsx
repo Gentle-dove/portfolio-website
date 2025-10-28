@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   return (
     <div className="intro py-20 text-center">
       <h3 id="hello">Hello 👋</h3>
-      <h1 id="im">I'm a <span id="web">Web</span> Developer</h1>
+      <h1 id="im">I&apos;m a <span id="web">Web</span> Developer</h1>
       <p id="build">I build responsive, user-friendly websites.</p>
 
       <div className="circle-design" aria-hidden />
