@@ -1,6 +1,9 @@
 // app/layout.tsx
 import './globals.css';
 import type { ReactNode } from 'react';
+import { config } from '@fortawesome/fontawesome-svg-core';
+    import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
+    config.autoAddCss = false;
 
 export const metadata = {
   title: 'RoyalDev Portfolio',

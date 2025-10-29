@@ -14,15 +14,19 @@ const About: React.FC = () => {
 
         <div className="about-text">
           <p>
-            Alozie Royal Chiagozie is a passionate and driven web developer from Nigeria, specializing in front-end
-            development and actively working towards becoming a full-stack developer. With a strong foundation in HTML, CSS, JavaScript, 
-            and React, I love crafting beautiful, responsive websites that are both visually engaging and functionally 
-            robust. I&apos;m currently honing my skills at ALT School, where
-            I&apos;m learning best practices and deepening my expertise in modern front-end technologies. I bring my projects to life using VS Code, manage code efficiently with Git, 
-            and continuously sharpen my problem-solving skills by tackling challenges on LeetCode. I&apos;m committed to writing clean, optimized code and building intuitive, user-centered experiences. 
-            Beyond coding, I&apos;m passionate about using technology to solve real-world problems and improve lives. From developing interactive web apps to collaborating on exciting projects or diving into complex algorithms, 
-            I&apos;m always eager to grow and explore new possibilities. Let&apos;s connect! If you&apos;re interested in teaming up, 
-            exchanging ideas, or just chatting about tech — I&apos;m all in.
+            Alozie Royal Chiagozie is a passionate and detail-oriented web developer from Nigeria,
+             specializing in front-end development and advancing toward full-stack expertise. With a strong command of HTML, CSS, JavaScript, and React,
+              I focus on building responsive, visually appealing, and user-friendly web applications that deliver seamless digital experiences.<br></br>
+
+I am a graduate of the Frontend Engineering program at ALT School Africa, where I developed a deep understanding of modern frontend technologies, clean 
+coding standards, and user-centered design principles. I leverage tools like VS Code for efficient development, Git and GitHub for version control, and 
+continuously enhance my problem-solving skills through real-world projects and coding challenges.<br></br>
+
+Beyond coding, I am driven by a desire to use technology as a tool for solving real-world problems and
+ improving everyday life. Through my brand, GentleDev, I aim to create, teach, and collaborate on impactful software solutions that inspire growth and innovation.<br></br>
+
+Let&apos;s connect — whether you&apos;re interested in collaborating, exchanging ideas, or exploring new 
+opportunities in tech, I&apos;m always open to meaningful professional conversations.
           </p>
         </div>
       </div>

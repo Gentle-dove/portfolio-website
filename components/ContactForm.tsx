@@ -1,6 +1,9 @@
 // components/ContactForm.tsx
 'use client';
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+    import { faFacebookF, faXTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+    import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const ContactForm: React.FC = () => {
   const [name, setName] = useState('');
@@ -51,19 +54,19 @@ const ContactForm: React.FC = () => {
 
       <div className="social-icons" id="social-icons">
         <a href="https://www.facebook.com/profile.php?id=61552679667437" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-facebook"></i>
+          <FontAwesomeIcon icon={faFacebookF} />
         </a>
         <a href="https://twitter.com/gentle_dev1" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-x"></i>
+          <FontAwesomeIcon icon={faXTwitter} />
         </a>
         <a href="https://github.com/Gentle-dove" target="_blank" rel="noopener noreferrer">
-          <i className="fa-brands fa-github"></i>
+          <FontAwesomeIcon icon={faGithub} />
         </a>
         <a href="https://www.linkedin.com/in/royal-alozie-533a57297" target="_blank" rel="noopener noreferrer">
-          <i className="fa-brands fa-linkedin"></i>
+          <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
         <a href="mailto:royalalozie46@gmail.com" target="_blank" rel="noopener noreferrer">
-          <i className="fas fa-envelope"></i>
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
     </div>
