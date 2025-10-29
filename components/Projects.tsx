@@ -1,11 +1,13 @@
 // components/Projects.tsx
 'use client';
+import { title } from 'process';
 import React from 'react';
 
 const projects = [
   { title: 'Project 1', desc: 'Age Calculator', href: 'https://age-calculator-nu-smoky.vercel.app/' },
   { title: 'Project 2', desc: 'To-do List website', href: 'https://to-do-list-xi-six-69.vercel.app/' },
-  { title: 'Project 3', desc: 'Portfolio Website', href: '#' },
+  {title: 'Project 3', desc: 'Nextjs To-do List website', href: 'https://next-todo-gstf.vercel.app/' },
+  { title: 'Project 4', desc: 'Portfolio Website', href: '#' },
 ];
 
 const Projects: React.FC = () => {

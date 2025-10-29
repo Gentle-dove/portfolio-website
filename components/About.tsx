@@ -1,15 +1,24 @@
 // components/About.tsx
 'use client';
 import React from 'react';
+import Image from "next/image";
 
 const About: React.FC = () => {
   return (
     <div className="about-container">
       <h3>About Me</h3>
       <div style={{display:'flex', flexDirection:'column', alignItems:'center', gap: '1rem', width: '100%'}}>
-        <div className="about-image" style={{display: 'none'}}>
+        <div className="about-image " >
           {/* If you want the circular image to show on desktop, remove display:none in CSS or adjust here */}
-          <img src="/me.jpg" alt="Alozie Royal Chiagozie" id="my-image" width={200} height={250}/>
+          <Image
+        src="/me.jpg"
+        alt="Alozie Royal Chiagozie"
+        width={200}
+        height={250}
+        id="my-image"
+        priority
+        className="rounded-2xl shadow-md "
+      />
         </div>
 
         <div className="about-text">
